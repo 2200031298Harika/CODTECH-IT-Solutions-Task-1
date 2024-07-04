@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://th.bing.com/th/id/OIP.FTmOuzElWD81pWG7hXMGQQHaEq?w=1500&h=945&rs=1&pid=ImgDetMain');
+    background-size: cover;
+    color: rgb(233, 224, 224);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #1e90ff;
+    color: rgb(200, 207, 218);
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3742fa;
+}
+
+#weather {
+    margin-top: 20px;
+}
